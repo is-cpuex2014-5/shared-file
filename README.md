@@ -5,3 +5,11 @@
 * min-rtの実行ファイルとcontest用のsldファイルを追加
 * `./simulator min-rt <contestb.sld >contest.ppm`で実行可能
 * 美しきモダンアート(点描画)が得られるはず
+
+###12/08
+* mandelbrotを出力する際は,
+```
+P1
+400 400
+```
+と書いておいたファイルにデータを流し込むとよい
